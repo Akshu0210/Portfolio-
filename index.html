@@ -4,38 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Akshaya | Frontend Developer</title>
+    <title>Akshaya D | Frontend Developer</title>
+
+    <meta name="description"
+          content="Akshaya D - Computer Science Engineering student and aspiring Frontend Developer.">
 
     <link rel="stylesheet" href="style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <!-- Navbar -->
+    <!-- Navigation -->
     <header>
         <nav class="navbar">
 
-            <h2 class="logo">Akshaya<span>.</span></h2>
+            <a href="#home" class="logo">
+                Akshaya<span>.</span>
+            </a>
 
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-
-            <button id="themeBtn">🌙</button>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div>
 
         </nav>
     </header>
 
 
-    <!-- Home -->
+    <!-- Hero Section -->
     <section id="home" class="hero">
 
         <div class="hero-content">
@@ -44,16 +44,25 @@
 
             <h1>Akshaya D</h1>
 
-            <h2>Frontend Developer</h2>
+            <h2>
+                Aspiring <span>Frontend Developer</span>
+            </h2>
 
             <p>
-                I create responsive, user-friendly and modern websites
-                using HTML, CSS, JavaScript and React.js.
+                Computer Science Engineering student passionate about
+                building modern, responsive and user-friendly web applications.
             </p>
 
-            <div class="hero-buttons">
-                <a href="#projects" class="btn">View Projects</a>
-                <a href="#contact" class="btn outline">Contact Me</a>
+            <div class="buttons">
+
+                <a href="#projects" class="btn">
+                    View Projects
+                </a>
+
+                <a href="#contact" class="btn outline">
+                    Contact Me
+                </a>
+
             </div>
 
         </div>
@@ -66,38 +75,22 @@
 
         <h2 class="section-title">About Me</h2>
 
-        <div class="about-container">
+        <div class="about">
 
-            <div class="about-text">
+            <p>
+                I'm Akshaya D, a Computer Science Engineering student
+                interested in frontend development and modern web technologies.
+            </p>
 
-                <p>
-                    I am a Computer Science Engineering student passionate
-                    about frontend development and web technologies.
-                </p>
+            <p>
+                I enjoy creating responsive and interactive websites and
+                improving my development skills by working on practical projects.
+            </p>
 
-                <p>
-                    I enjoy building responsive websites and interactive
-                    web applications. I am currently developing my skills
-                    in Java, React.js and full-stack development.
-                </p>
-
-                <div class="education">
-                    <h3>Education</h3>
-
-                    <p>
-                        <strong>B.E Computer Science Engineering</strong>
-                    </p>
-
-                    <p>
-                        SSM College of Engineering
-                    </p>
-
-                    <p>
-                        Expected Graduation: 2027
-                    </p>
-                </div>
-
-            </div>
+            <p>
+                My career goal is to become a
+                <strong>Java Full Stack Developer</strong>.
+            </p>
 
         </div>
 
@@ -105,41 +98,24 @@
 
 
     <!-- Skills -->
-    <section id="skills" class="section skills-section">
+    <section id="skills" class="section">
 
-        <h2 class="section-title">My Skills</h2>
+        <h2 class="section-title">Skills</h2>
 
-        <div class="skills-container">
+        <div class="skills">
 
-            <div class="skill-card">
-                <h3>HTML</h3>
-                <p>Semantic & Responsive Web Structure</p>
-            </div>
-
-            <div class="skill-card">
-                <h3>CSS</h3>
-                <p>Responsive Design & Modern UI</p>
-            </div>
-
-            <div class="skill-card">
-                <h3>JavaScript</h3>
-                <p>Interactive Web Applications</p>
-            </div>
-
-            <div class="skill-card">
-                <h3>React.js</h3>
-                <p>Component Based Development</p>
-            </div>
-
-            <div class="skill-card">
-                <h3>Java</h3>
-                <p>Core Java & OOP Concepts</p>
-            </div>
-
-            <div class="skill-card">
-                <h3>Git & GitHub</h3>
-                <p>Version Control & Project Management</p>
-            </div>
+            <div class="skill">HTML5</div>
+            <div class="skill">CSS3</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React.js</div>
+            <div class="skill">Java</div>
+            <div class="skill">Spring Boot</div>
+            <div class="skill">Node.js</div>
+            <div class="skill">MongoDB</div>
+            <div class="skill">MySQL</div>
+            <div class="skill">Git & GitHub</div>
+            <div class="skill">Vite</div>
+            <div class="skill">Tailwind CSS</div>
 
         </div>
 
@@ -149,78 +125,145 @@
     <!-- Projects -->
     <section id="projects" class="section">
 
-        <h2 class="section-title">My Projects</h2>
+        <h2 class="section-title">Projects</h2>
 
-        <div class="projects-container">
+        <div class="projects">
+
 
             <div class="project-card">
 
-                <h3>🍔 Foodie Express</h3>
+                <span>01</span>
+
+                <h3>Foodie Express</h3>
 
                 <p>
-                    A responsive food ordering website with menu,
-                    product selection and checkout interface.
+                    Responsive food ordering website with menu categories,
+                    product selection and user-friendly navigation.
                 </p>
 
                 <div class="tech">
-                    HTML • CSS • JavaScript • Bootstrap
+                    HTML · CSS · JavaScript · Bootstrap
                 </div>
 
-                <a href="#" class="project-btn">View Project</a>
+                <a href="https://github.com/Akshu0210"
+                   target="_blank">
+                    GitHub →
+                </a>
 
             </div>
 
 
             <div class="project-card">
 
-                <h3>🎮 IndieGamer Hub</h3>
+                <span>02</span>
+
+                <h3>IndieGamer Hub</h3>
 
                 <p>
-                    A gaming platform interface that displays games
-                    and gaming information using a modern UI.
+                    Gaming-focused web application designed to explore
+                    games through an engaging browsing experience.
                 </p>
 
                 <div class="tech">
-                    React.js • Vite • CSS • API
+                    React.js · Vite · JavaScript · API
                 </div>
 
-                <a href="#" class="project-btn">View Project</a>
+                <a href="https://github.com/Akshu0210"
+                   target="_blank">
+                    GitHub →
+                </a>
 
             </div>
 
 
             <div class="project-card">
 
-                <h3>📚 LectoNote</h3>
+                <span>03</span>
+
+                <h3>LectoNote</h3>
 
                 <p>
-                    A lecture-to-notes application designed to help
-                    students convert lecture content into organized notes.
+                    Lecture-to-notes application concept focused on
+                    organizing digital learning content.
                 </p>
 
                 <div class="tech">
-                    React.js • Node.js • MongoDB
+                    React.js · Node.js · MongoDB · AWS S3
                 </div>
 
-                <a href="#" class="project-btn">View Project</a>
+                <a href="https://github.com/Akshu0210"
+                   target="_blank">
+                    GitHub →
+                </a>
 
             </div>
 
 
             <div class="project-card">
 
-                <h3>🎓 SmartCampus</h3>
+                <span>04</span>
+
+                <h3>SmartCampus</h3>
 
                 <p>
-                    A smart campus management web application
-                    for managing campus-related information.
+                    Campus management application concept using Java
+                    backend technologies.
                 </p>
 
                 <div class="tech">
-                    Java • Spring Boot • MySQL
+                    Java · Spring Boot · MySQL
                 </div>
 
-                <a href="#" class="project-btn">View Project</a>
+                <a href="https://github.com/Akshu0210"
+                   target="_blank">
+                    GitHub →
+                </a>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <span>05</span>
+
+                <h3>Real-Time Chat Application</h3>
+
+                <p>
+                    Real-time communication application concept focused
+                    on client-server messaging.
+                </p>
+
+                <div class="tech">
+                    Java · Socket Programming · Networking
+                </div>
+
+                <a href="https://github.com/Akshu0210"
+                   target="_blank">
+                    GitHub →
+                </a>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <span>06</span>
+
+                <h3>StudySync</h3>
+
+                <p>
+                    Collaborative learning application concept involving
+                    file handling and real-time communication.
+                </p>
+
+                <div class="tech">
+                    React.js · Node.js · Socket.io · AWS S3
+                </div>
+
+                <a href="https://github.com/Akshu0210"
+                   target="_blank">
+                    GitHub →
+                </a>
 
             </div>
 
@@ -229,28 +272,58 @@
     </section>
 
 
-    <!-- Contact -->
-    <section id="contact" class="section contact-section">
+    <!-- Education -->
+    <section id="education" class="section">
 
-        <h2 class="section-title">Contact Me</h2>
+        <h2 class="section-title">Education</h2>
 
-        <p class="contact-text">
-            Interested in working together? Feel free to contact me.
-        </p>
+        <div class="education-card">
 
-        <div class="contact-info">
+            <h3>B.E. Computer Science and Engineering</h3>
 
-            <p>📧 Email: yourmail@gmail.com</p>
+            <h4>SSM College of Engineering</h4>
 
-            <p>💻 GitHub: github.com/yourusername</p>
-
-            <p>🔗 LinkedIn: linkedin.com/in/yourusername</p>
+            <p>2023 – 2027</p>
 
         </div>
 
-        <a href="mailto:yourmail@gmail.com" class="btn">
-            Send Email
-        </a>
+        <div class="education-card">
+
+            <h3>Higher Secondary Education</h3>
+
+            <h4>Sowdeswari Matric Higher Secondary School</h4>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="section contact">
+
+        <h2 class="section-title">Let's Connect</h2>
+
+        <p>
+            I'm open to internship opportunities, collaborations
+            and interesting projects.
+        </p>
+
+        <div class="contact-links">
+
+            <a href="https://github.com/Akshu0210"
+               target="_blank">
+                GitHub
+            </a>
+
+            <a href="mailto:your-email@example.com">
+                Email
+            </a>
+
+            <a href="#">
+                LinkedIn
+            </a>
+
+        </div>
 
     </section>
 
@@ -269,3 +342,5 @@
 
 </body>
 </html>
+        
+        
